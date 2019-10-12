@@ -1,4 +1,4 @@
-funcvar dialLines = document.getElementsByClassName('diallines');
+var dialLines = document.getElementsByClassName('diallines');
 var clockEl = document.getElementsByClassName('clock')[0];
 
 for (var i = 1; i < 60; i++) {
